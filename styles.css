@@ -1,0 +1,35 @@
+body {
+  background: #333;
+}
+
+h1 {
+  font-family: Consolas;
+  text-align: center;
+  color: white;
+}
+
+#txt_search {
+  width: 80vw;
+  padding:15px;
+  text-align:center;
+  border:1px solid silver;
+  border-radius:5px;
+  display:block;
+  margin:auto;
+  font-size: large;
+}
+#mp3mp4 {
+  width: 50vw;
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+}
+
+#ifResult {
+  display:block;
+  margin:auto;
+  width: 80vw;
+  height: 100%;
+}
