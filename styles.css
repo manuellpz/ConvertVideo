@@ -18,13 +18,30 @@ h1 {
   margin:auto;
   font-size: large;
 }
+#container {
+  width: 90vw;
+  display:flex;
+  justify-content: space-evenly;
+}
+
 #mp3mp4 {
-  width: 50vw;
-  display: block;
+  width: 40vw;
+  display: inline-block;
   padding: 10px;
   font-weight: bold;
   margin: auto;
   text-align: center;
+}
+#btn_getMedia {
+  width:40vw;
+  border:1px solid silver;
+  border-radius:5px;
+  cursor:pointer;
+  background:forestgreen;
+  color:white;
+  padding:10px;
+  text-shadow: 1px 1px 1px black;
+  font-weight: bold;
 }
 
 #ifResult {
