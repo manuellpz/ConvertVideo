@@ -10,10 +10,18 @@ function getMedia(url) {
 txt_search.addEventListener('keyup', (e) => {
 	if(e.keyCode == 13) {
       	getMedia(e.target.value);
+        resetField();
     }
   
 });
 btn.addEventListener('click',()=> {
-    if(txt_search.value != "")
+    if(txt_search.value != ""){
         getMedia(txt_search.value);
+        resetField();
+    }
 })
+
+function resetField() {
+    txt_search.value = "";
+    txt_search.focus();
+}

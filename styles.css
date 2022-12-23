@@ -15,7 +15,7 @@ h1 {
   border:1px solid silver;
   border-radius:5px;
   display:block;
-  margin:auto;
+  margin:10px auto;
   font-size: large;
 }
 #container {
