@@ -4,7 +4,7 @@ let option = document.querySelector('#mp3mp4');
 const btn = document.querySelector('#btn_getMedia');
 
 function getMedia(url) {
-    iframe.src = `https://convert2mp3s.com/api/widgetv2?url=${url}`;
+    iframe.src = `https://convert2mp3s.com/api/widget?url=${url}`;
 }
 
 txt_search.addEventListener('keyup', (e) => {
